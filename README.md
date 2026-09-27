@@ -12,7 +12,7 @@ LibreUniversity kurulum ve operasyon dosyaları: self-hosted öncelikli ([ADR-00
 
 ## Yığın
 
-PostgreSQL, Redis/Valkey, Keycloak, MinIO, platform-api, Celery işçileri, platform-web, ters vekil sunucu (Caddy/Nginx), Mailpit (geliştirme), Prometheus, Grafana, Loki; Faz 3'te Jitsi (Meet, JVB, Jibri).
+PostgreSQL, Keycloak, MinIO, platform-api (Go, tek binary; arka plan işleri River ile aynı süreçte), platform-web, ters vekil sunucu (Caddy/Nginx), Mailpit (geliştirme), Prometheus, Grafana, Loki; Faz 3'te Jitsi (Meet, JVB, Jibri).
 
 ## Fazlara Göre İşler
 
