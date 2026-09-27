@@ -2,7 +2,7 @@
 
 ## Faz 0: Geliştirme Ortamı (davet öncesi)
 
-- [ ] `compose.yaml`: PostgreSQL, Redis, Keycloak (hazır realm), MinIO, Mailpit, platform-api, platform-web
+- [ ] `compose.yaml`: PostgreSQL, Keycloak (hazır realm), MinIO, Mailpit, platform-api, platform-web
 - [ ] Keycloak realm dışa aktarımı: öğrenci, akademisyen, danışman, idari, yönetici test kullanıcıları
 - [ ] `make up` / `make seed` / `make down` komutları
 - [ ] Linux, macOS ve Windows (WSL2) için kurulum rehberi
